@@ -1,0 +1,102 @@
+.navbar{
+    height:90px;
+    background:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 25px;
+    position:relative;
+    box-shadow:0 2px 12px rgba(0,0,0,0.08);
+}
+
+
+/* Logo */
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+/* Center Brand */
+.brand-name{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:1.9rem;
+    font-weight:1000;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    white-space:nowrap;
+}
+
+
+.brand-name .black{
+    color:#111111;
+}
+
+
+.brand-name .red{
+    color:#e53935;
+}
+
+
+/* Right Navigation */
+.nav-links{
+    display:flex;
+    gap:28px;
+}
+
+
+.nav-links a{
+    text-decoration:none;
+    color:#444;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+
+.nav-links a:hover{
+    color:#e53935;
+}
+
+
+/* Mobile Responsive */
+@media(max-width:768px){
+
+    .navbar{
+        height:75px;
+        padding:0 15px;
+    }
+
+
+    .brand-name{
+        font-size:1.4rem;
+    }
+
+
+    .logo{
+    display:flex;
+    align-items:center;
+}
+
+
+.logo img{
+    width:60px;
+    height:60px;
+    display:block;
+    object-fit:contain;
+}
+
+
+    .nav-links{
+        gap:12px;
+    }
+
+
+    .nav-links a{
+        font-size:13px;
+    }
+
+}

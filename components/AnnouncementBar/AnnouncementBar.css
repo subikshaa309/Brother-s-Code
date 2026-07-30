@@ -1,0 +1,47 @@
+.announcement-bar {
+  width: 100%;
+  background: #e53935;
+  color: #fff;
+  overflow: hidden;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+}
+
+.announcement-track {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  animation: scrollText 25s linear infinite;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.announcement-track span {
+  display: inline-block;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .announcement-bar {
+    height: 36px;
+  }
+
+  .announcement-track {
+    font-size: 13px;
+    gap: 40px;
+  }
+}

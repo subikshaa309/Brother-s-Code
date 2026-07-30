@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    name: "T-Shirt",
+    category: "T-Shirt",
+    price: 799,
+    oldPrice: 999,
+    discount: "20% OFF",
+    image: "/p1.jpg",
+  },
+  {
+    id: 2,
+    name: "Streetwear Hoodie",
+    category: "Hoodies",
+    price: 1499,
+    oldPrice: 1899,
+    discount: "21% OFF",
+    image: "/p6.jpg",
+  },
+  {
+    id: 3,
+    name: "Cargo Pants",
+    category: "Pants",
+    price: 1299,
+    oldPrice: 1699,
+    discount: "24% OFF",
+    image: "/p5.jpg",
+  },
+  {
+    id: 4,
+    name: "Sweatshirt",
+    category: "T-Shirts",
+    price: 899,
+    oldPrice: 1199,
+    discount: "25% OFF",
+    image: "/p4.jpg",
+  },
+  {
+    id: 5,
+    name: "Premium Shirt",
+    category: "Shirts",
+    price: 1099,
+    oldPrice: 1399,
+    discount: "22% OFF",
+    image: "/p2.jpg",
+  },
+  {
+    id: 6,
+    name: "Casual pant",
+    category: "Pants",
+    price: 1399,
+    oldPrice: 1799,
+    discount: "23% OFF",
+    image: "/p6.jpg",
+  },
+];
+
+export default products;
